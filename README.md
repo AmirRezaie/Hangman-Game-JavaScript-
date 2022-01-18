@@ -1,5 +1,5 @@
 # Hangman-Game-JavaScript-
-In This Repository, I Create Hangman Game With <b>HTML, CSS and Javascript</b>.
+In This Repository, I Create Hangman Game With <strong>HTML, CSS and Javascript</strong>.
 
 ///////////////////////////////////////////////
 
