@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hangman Game</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <h1>Hanging Man</h1>
+        <div class="timer">
+          <button class="timer-btn" id="timer-btn">Start</button>
+          <div>
+            <p id="countdown">10:00</p>
+          </div>
+        </div>
+      </header>
+      <hr />
+      <section class="main-section">
+        <div class="text">
+          <p>Help this man to guess the current word:</p>
+        </div>
+        <div class="keyboard">
+          <div class="keyboard-btn" id="buttons"></div>
+          <img
+            src="images/hm0.gif"
+            id="hangman-pic"
+            alt="hangman game pictures"
+          />
+          <div class="guess-letters">
+            <form>
+              <label class="label">Corrects Letters:</label><br />
+              <input type="text" class="textbar" id="hold" />
+              <label class="label">Wrong Letters:</label><br />
+              <input type="text" class="textbar" id="wrong-letter" /><br />
+            </form>
+          </div>
+        </div>
+      </section>
+      <hr />
+      <footer>
+        <p>&copy; 2016 Company, Inc</p>
+      </footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
